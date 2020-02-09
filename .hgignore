@@ -6,12 +6,12 @@ syntax: glob
 
 # Folder view configuration files
 .DS_Store
-Desktop.ini
+#Desktop.ini
 
 # Thumbnail cache files
 ._*
-Thumbs.db
+#Thumbs.db
 
 # Files that might appear on external disks
-.Spotlight-V100
-.Trashes
+#.Spotlight-V100
+#.Trashes
