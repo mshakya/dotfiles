@@ -1,0 +1,2 @@
+module load Anaconda3
+source activate my_env
