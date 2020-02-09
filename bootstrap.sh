@@ -11,7 +11,6 @@ function doIt() {
 		--exclude "bootstrap.sh" \
 		--exclude "README.md" \
 		--exclude "LICENSE-MIT.txt" \
-		--exclude ".bash_prompt"\
 		--exclude ".editorconfig" \
 		--exclude ".gvirmc" \
 		--exclude ".macos" \
@@ -22,7 +21,7 @@ function doIt() {
 		--exclude ".wgetrc" \
 		--exclude ".curlrc" \
 		--exclude ".gdbinit" \
-		--exclude ".inputrc" \
+		--exclude "brew.sh" \
 		--exclude ".tmux.conf" -avh --no-perms . ~;
 	source ~/.bash_profile;
 }
