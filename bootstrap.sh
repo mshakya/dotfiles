@@ -15,7 +15,6 @@ function doIt() {
 		--exclude ".editorconfig" \
 		--exclude ".gvirmc" \
 		--exclude ".macos" \
-		--exclude ".vim/" \
 		--exclude "bin/" \
 		--exclude "init/" \
 		--exclude ".gitattributes" \
