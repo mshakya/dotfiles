@@ -1,3 +1,7 @@
+[user]
+	name = Migun Shakya
+	email=microbeatic@gmail.com
+
 [alias]
 
 	# View abbreviated SHA, description, and history graph of the latest 20 commits
@@ -143,7 +147,7 @@
 [diff]
 
 	# Detect copies as well as renames
-	renames = copies
+#renames = copies
 
 [diff "bin"]
 

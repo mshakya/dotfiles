@@ -11,20 +11,20 @@ function doIt() {
 		--exclude "bootstrap.sh" \
 		--exclude "README.md" \
 		--exclude "LICENSE-MIT.txt" \
-		--exclude ".bash_prompt"
-		--exclue ".editorconfig" \
-		--exclue ".gvirmc" \
-		--exclue ".macos" \
-		--exclue ".vim/" \
+		--exclude ".bash_prompt"\
+		--exclude ".editorconfig" \
+		--exclude ".gvirmc" \
+		--exclude ".macos" \
+		--exclude ".vim/" \
 		--exclude "bin/" \
+		--exclude "init/" \
 		--exclude ".gitattributes" \
 		--exclude ".hushlogin" \
 		--exclude ".wgetrc" \
 		--exclude ".curlrc" \
 		--exclude ".gdbinit" \
 		--exclude ".inputrc" \
-		--exclude ".tmux.conf" \ 
-		-avh --no-perms . ~;
+		--exclude ".tmux.conf" -avh --no-perms . ~;
 	source ~/.bash_profile;
 }
 
