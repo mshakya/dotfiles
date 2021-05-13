@@ -22,6 +22,7 @@ function doIt() {
 		--exclude ".curlrc" \
 		--exclude ".gdbinit" \
 		--exclude "brew.sh" \
+		--exclude ".screenrc.sh" \
 		--exclude ".tmux.conf" -avh --no-perms . ~;
 	source ~/.bash_profile;
 }
