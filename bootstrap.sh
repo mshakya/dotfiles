@@ -2,11 +2,7 @@
 
 cd "$(dirname "${BASH_SOURCE}")";
 
-<<<<<<< HEAD
-#git pull origin master;
-=======
 git pull origin main;
->>>>>>> c886e139233320e29fd882960ba3dd388d57afd7
 
 function doIt() {
 	rsync --exclude ".git/" \
